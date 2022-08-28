@@ -5,6 +5,7 @@ import { Router } from "express";
 
 const routes = Router();
 
+routes.get('/', (req, res)=>{res.send ("API ON"});
 routes.post('/register', new userController().handle);
 routes.post('/auth', new userController().auth);
 routes.post('/laudo', new laudoController().handle).use(authMiddleware);
