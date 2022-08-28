@@ -5,7 +5,8 @@
 
     1 - npm install -D (Para instalar as dependencias de dev)
     2 - Você tem que ter o banco mysql instalado na sua máquina
-    2 - npm run dev (Para executar o projeto)
+    3 - npm run dev (Para executar o projeto)
+    4- Para executar as migrations rode esse comando ( npm run typeorm -- migration:run -d src/database/dataSource.ts )
 
 #### Cadastro na plataforma
 
